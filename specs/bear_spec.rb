@@ -30,6 +30,12 @@ class TestBear < MiniTest::Test
     assert_equal(expected, actual)
   end
 
+  def test_food_count
+    expected = 0
+    actual = @yogi.food_count()
+    assert_equal(expected, actual)
+  end
+
 
 
 end

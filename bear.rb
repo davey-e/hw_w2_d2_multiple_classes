@@ -10,4 +10,8 @@ class Bear
   def roar
     return "Roar"
   end
+
+  def food_count
+    return @stomach.length
+  end
 end
