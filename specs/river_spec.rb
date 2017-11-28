@@ -36,7 +36,7 @@ class TestRiver < MiniTest::Test
     @amazon.add_fish(@salmon3)
     @amazon.add_fish(@salmon4)
     expected = 6
-    actual = @amazon.fish_count
+    actual = @amazon.fish_count()
     assert_equal(expected, actual)
   end
 
